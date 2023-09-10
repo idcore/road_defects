@@ -1,0 +1,60 @@
+{
+    "info": {
+        "description": "Дефекты дорожного покрытия",
+    "url": "",
+    "version": "1.0",
+    "year": 2023,
+    "contributor": "Coffee time team",
+    "date_created": "2023/09/08",
+    "video_name": "GUID.avi",
+    "video_height": 1024,
+    "video_width": 768,
+    "video_fps": 30,
+	"video_length": 600,
+    "date_captured": "2013-11-15 02:41:42"
+    },
+    "images": [
+    {
+    "id": 1, 
+    "license": 4, 
+	"file_name": "GUID.png",
+    "width": 426, 
+    "height": 640, 
+    "frame_id": 1,
+    "gps_coord": [55.682072, 37.388727],
+    "date_captured": "2013-11-15 02:41:42"
+    },
+    
+    {
+    "id": 2, 
+    "license": 4, 
+	"file_name": "GUID.png",
+    "width": 426, 
+    "height": 640, 
+    "frame_id": 2,
+    "gps_coord": [55.682082, 37.388737],
+    "date_captured": "2013-11-15 02:41:43"
+    }
+    ],
+        
+     "annotations": [
+    {
+      "id": 1,
+      "category_id": 0,
+      "iscrowd": 0,
+      "image_id": 1
+    },
+    {
+      "id": 2,
+      "category_id": 0,
+      "iscrowd": 0,
+      "image_id": 2
+    }
+  ],
+    "categories": [
+    {"supercategory": "defects","id": 0,"name": "any"},
+    {"supercategory": "defects","id": 1,"name": "pothole"},
+		{"supercategory": "defects","id": 2,"name": "rutting"},
+		{"supercategory": "defects","id": 3,"name": "patch"}
+    ]
+}
